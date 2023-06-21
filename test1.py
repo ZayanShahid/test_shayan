@@ -1,7 +1,5 @@
 from flask import Flask
 
-password = "ASD123!@#asd"
-url = "https://www.google.com"
 app = Flask(__name__)
 
 @app.route('/')
@@ -12,7 +10,7 @@ def hello():
 
 if __name__ == '__main__':
     
-    app.run()
+    app.run(debug=True)
     
 
 
