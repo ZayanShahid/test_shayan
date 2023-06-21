@@ -1,6 +1,6 @@
 from flask import Flask
 
-password = "ASD123!@#asd
+password = "ASD123!@#asd"
 url = "https://www.google.com
 app = Flask(__name__)
 
